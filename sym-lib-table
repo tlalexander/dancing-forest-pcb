@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/parts/kicad-libraries/libraries/Espressif.kicad_sym")(options "")(descr ""))
+  (lib (name "dancing_forest")(type "KiCad")(uri "${KIPRJMOD}/dancing_forest.kicad_sym")(options "")(descr ""))
+)

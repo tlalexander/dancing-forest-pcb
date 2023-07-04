@@ -1,0 +1,79 @@
+microcontroller
+accelerometer
+power supply system - LED voltage
+5050 packaged WS2812 - maybe top and side emitting? batteries physically above the board, light emits down and sideward
+batteries - level shifters?
+wifi interface
+usb interface
+removable and replacable batteries
+voltage measurement
+special board shape
+
+power switch?
+
+all one board, or separate LEDs and micro board?
+
+do some battery life calculations
+
+do we want white light emitted?
+
+could use VL53L0X sensors to detect people walking by
+
+access point could host a web interface for a cell phone app - or some way to interface with a cell phone
+raspberry pi host
+
+
+tens of devices with bidirectional communications
+server is aware of accelerometer data
+
+wifi with a separate access point
+
+2023 NOTES:
+
+Add quiik
+
+TODO:
+(* means not done, make sure to check)
+(- means done)
+- Shut off LEDs - N channel MOSFET to ground
+- how do we program it? dev boards use USB serial. at a minumum break out USB serial.
+- confirm method of programming.
+- Add quiik
+- add bulk capacitance for board
+- add springs to battery placement.
+- add backup pads or connector holes for USB
+- change the ESP32 to the ESP32-WROOM-32E-N8 C701342
+- add connector to external LEDs
+- add USB UART chip
+- https://jlcpcb.com/partdetail/SiliconLabs-CP2104_F03GMR/C47742
+- https://jlcpcb.com/partdetail/Ftdi-FT231XSR/C132160
+add multimeter touch points for power measurement (note: ended up just adding power sense circuit. also I am not sure exactly what touch points we would add for this).
+think and care about the ground plane
+make sure to notch distance sensors
+
+* Confirm LED supply voltages works with LIPO
+* sam will recalculate battery capacity
+* Sam will quadruple check board dimensions, LED radius, LED count
+* double check I2C pins
+* confirm Molex KK 254 is a good match for neopixel connectors
+
+spring contacts C3015090
+add some test points!
+is this the correct ESP32? C701341
+
+is this a good SK6812? C5181320
+
+Must have chips:
+ESP32
+- Serial chip - pinout and wiring
+- 3.3v regulator
+- current measurement chip
+- mosfets for LED power
+- WS2812B - 3.7-5.3v
+- SK6812 - 3.7-5.5v
+- SK6812-SIDE - 3.7v-5.5v
+CONFIRM ALL LED VOLTAGES
+- Gyro footprint looks okay
+CONFIRM GYRO INT1 INT2 PINS
+ESP32-S3-MINI-1-N8
+C2913206
