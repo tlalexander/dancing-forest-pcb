@@ -1,1 +1,92 @@
+21890764021081
+led
+5_pin
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+smd
 0
+5
+5
+led
+LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm
+https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf
+LED RGB NeoPixel
+0
+4
+4
+led
+LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm_OLD
+https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf
+led
+0
+4
+4
+led
+MountingHole_3.2mm_Plastite_#4
+Mounting Hole 3.2mm, no annular, M3
+led
+0
+0
+0
+led
+MountingHole_3.9mm_Plastite_#6
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
+led
+SK6812SIDE
+
+
+0
+6
+4
+led
+SK6812SIDE_OLD
+decription
+led
+0
+6
+4
+led
+SW_TS_1101_C_W
+https://www.mouser.com/ds/2/60/RS-282G05A-SM_RT-1159762.pdf
+SPST button tactile switch
+0
+2
+2
+led
+artwork
+
+
+0
+0
+0
+led
+artwork_smaller
+
+
+0
+0
+0
+led
+breakaway
+Through hole straight pin header, 1x05, 1.27mm pitch, single row
+Through hole pin header THT 1x05 1.27mm single row
+0
+0
+0
+led
+spring_F6-6-4-0.4Z
+Through hole straight pin header, 1x01, 2.54mm pitch, single row
+Through hole pin header THT 1x01 2.54mm single row
+0
+1
+1
+led
+spring_F8-8-5-0.4Z
+Through hole straight pin header, 1x01, 2.54mm pitch, single row
+Through hole pin header THT 1x01 2.54mm single row
+0
+1
+1
